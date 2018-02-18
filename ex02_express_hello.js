@@ -20,7 +20,6 @@ app.delete("/profile", (req, res) => {
 });
 
 
-
 const server = app.listen(3000, () => {
     const hostname = server.address().address;
     const port = server.address().port;
